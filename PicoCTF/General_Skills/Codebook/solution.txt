@@ -1,0 +1,1 @@
+Just run the code.py file in the same directory as that of codebook.txt

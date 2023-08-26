@@ -1,0 +1,8 @@
+1. Download and make the rev1 as executable - chmod +x rev1
+2. Open rev1 in Ghidra and search for the main() function.
+3. On reading and understanding the logic, you'll find that pin depends on the value returned by cek() function.
+4. Double click on the cek(local_c);
+5. It will show you `return param_1 == 0x51615;` 
+6. Convert this to ascii from hex to get the flag. 
+
+Flag - CTFLearn{333333}
